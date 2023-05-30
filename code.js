@@ -8,7 +8,7 @@ app.use(express.json());
 
 const con = mysql.createConnection({
     host: "localhost",
-    user: "gagan",
+    user: "vineet",
     password: "1234",
     database: "shorturl",
     authPlugins: {
@@ -97,7 +97,7 @@ app.listen(5000, ()=> {
 
 // const con = mysql.createConnection({
 //     host: "localhost",
-//     user: "gagan",
+//     user: "vineet",
 //     password: "1234",
 //     database: "shorturl",
 //     authPlugins: {
@@ -171,7 +171,7 @@ app.listen(5000, ()=> {
 
 // const con = mysql.createConnection({
 //     host: "localhost",
-//     user: "gagan",
+//     user: "vineet",
 //     password: "1234",
 //     database: "shorturl",
 //     authPlugins: {
@@ -245,7 +245,7 @@ app.listen(5000, ()=> {
 
 // const con = mysql.createConnection({
 //     host: "localhost",
-//     user: "gagan",
+//     user: "vineet",
 //     password: "1234",
 //     database: "shorturl",
 //     authPlugins: {
@@ -319,7 +319,7 @@ app.listen(5000, ()=> {
 
 // const con = mysql.createConnection({
 //     host: "localhost",
-//     user: "gagan",
+//     user: "vineet",
 //     password: "1234",
 //     database: "shorturl",
 //     authPlugins: {
@@ -393,7 +393,7 @@ app.listen(5000, ()=> {
 
 // const con = mysql.createConnection({
 //     host: "localhost",
-//     user: "gagan",
+//     user: "vineet",
 //     password: "1234",
 //     database: "shorturl",
 //     authPlugins: {
