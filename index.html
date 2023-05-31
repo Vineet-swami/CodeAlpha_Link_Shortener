@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Made by Vineet Swami</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" async defer></script>
+</head>
+
+<body>
+	<div class="header">
+		Create Short URL (Owner - Vineet Swami)
+	</div>
+	<div class="form">
+		<div class="form-element">
+			<label for="longurl">Enter link</label>
+			<input type="text" id="longurl" placeholder="http://site.com">
+		</div>
+		<div class="form-element">
+			<button id="create-short-url">Create Short URL</button>
+		</div>
+		<div class="result">
+			<a href="#" id="short-url" target="_blank"></a>
+		</div>
+	</div>
+	<div class="list">
+		<h2>Shorten links (Global History)</h2>
+		<table id="list_urls">
+			<thead>
+				<tr>
+					<th>LongURL</th>
+					<th>ShortURL</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>
